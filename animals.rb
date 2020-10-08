@@ -33,3 +33,12 @@ end
 
 class Vaca < Mamifero
 end
+
+class Mosca < Insecto
+end
+
+class Mariposa < Insecto
+end
+
+class Abeja < Insecto 
+end
