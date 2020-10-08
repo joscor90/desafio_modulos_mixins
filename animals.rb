@@ -24,3 +24,12 @@ end
 
 class Pato < Ave 
 end
+
+class Perro < Mamifero 
+end
+
+class Gato < Mamifero
+end
+
+class Vaca < Mamifero
+end
