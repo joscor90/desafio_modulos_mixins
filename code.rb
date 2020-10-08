@@ -1,4 +1,5 @@
 class Person
+    attr_reader :first_name, :last_name, :age
     def initialize(first, last, age)
         @first_name = first
         @last_name = last
@@ -46,3 +47,13 @@ class Parent < Person
         puts "Hola. Soy uno de los apoderados. Mi nombre es #{self.first_name} #{self.last_name}."
     end
 end
+
+#testing classes and methods
+# Student.new('John', 'Doe', 25).talk
+# Student.new('John', 'Doe', 25).introduce
+
+# Teacher.new('John', 'Doe', 25).talk
+# Teacher.new('John', 'Doe', 25).introduce
+
+# Parent.new('John', 'Doe', 25).talk
+# Parent.new('John', 'Doe', 25).introduce
