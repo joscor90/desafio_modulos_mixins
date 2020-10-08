@@ -6,43 +6,43 @@ class Animal
         @nombre = nombre
     end
 
-    include module Habilidades::Caminante
+    include Habilidades::Caminante
 end
 
 class Ave < Animal
-    include module Alimentacion::Herbivoro
+    include Alimentacion::Herbivoro
 end
 
 class Mamifero < Animal
 end
 
 class Insecto < Animal
-    include module Habilidades::Volador
-    include module Alimentacion::Herbivoro
+    include Habilidades::Volador
+    include Alimentacion::Herbivoro
 end
 
 class Pinguino < Ave
-    include module Habilidades::Nadador
+    include Habilidades::Nadador
 end
 
 class Paloma < Ave
-    include module Habilidades::Volador
+    include Habilidades::Volador
 end
 
 class Pato < Ave 
-    include module Habilidades::Volador
+    include Habilidades::Volador
 end
 
 class Perro < Mamifero 
-    include module Alimentacion::Carnivoro
+    include Alimentacion::Carnivoro
 end
 
 class Gato < Mamifero
-    include module Alimentacion::Carnivoro
+    include Alimentacion::Carnivoro
 end
 
 class Vaca < Mamifero
-    include module Alimentacion::Herbivoro
+    include Alimentacion::Herbivoro
 end
 
 class Mosca < Insecto
@@ -53,4 +53,3 @@ end
 
 class Abeja < Insecto 
 end
-

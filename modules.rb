@@ -12,6 +12,7 @@ module Habilidades
         def nadar
             'Estoy nadando!'
         end
+
         def sumergir
             'glu glub glub glu'
         end
@@ -32,7 +33,7 @@ module Alimentacion
     end
     module Carnivoro
         def comer
-        '   Puedo comer carne!'
+            'Puedo comer carne!'
         end
     end
 end
