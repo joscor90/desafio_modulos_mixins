@@ -15,3 +15,12 @@ end
 
 class Insecto < Animal
 end
+
+class Pinguino < Ave
+end
+
+class Paloma < Ave
+end
+
+class Pato < Ave 
+end
