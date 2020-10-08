@@ -1,10 +1,10 @@
 module Habilidades
     module Volador
         def volar
-        'Estoy volandooooo!'
+            'Estoy volandooooo!'
         end
         def aterrizar
-        'Estoy cansado de volar, voy a aterrizar'
+            'Estoy cansado de volar, voy a aterrizar'
         end
     end
 
